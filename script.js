@@ -1,3 +1,5 @@
+document.querySelector('.days li').setAttribute('ontouchstart', '');
+
 const currentDate = document.querySelector(".current-date");
 daysTag = document.querySelector(".days");
 prevNextIcon = document.querySelectorAll(".icons span");
