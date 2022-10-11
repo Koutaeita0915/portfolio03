@@ -1,4 +1,4 @@
-document.querySelector('.days li').setAttribute('ontouchstart', '');
+document.querySelector('li').setAttribute('ontouchstart', '');
 
 const currentDate = document.querySelector(".current-date");
 daysTag = document.querySelector(".days");
